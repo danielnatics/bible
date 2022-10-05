@@ -4,10 +4,11 @@ const menuIcon = document.querySelector(".menu-icon");
 menuIcon.addEventListener("click", openMenu);
 function openMenu() {
   sidebar.classList.add("opensidebar");
+alert ("working");
   
 }
- menuIcon1.addEventListener("click", openMenu);
-function openMenu() {
+ menuIcon1.addEventListener("click", closeMenu);
+function closeMenu() {
   sidebar.classList.remove("opensidebar");
   
 }
