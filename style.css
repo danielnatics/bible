@@ -5,17 +5,15 @@
 }
 /* Header*/
 header {
-  background-color: #ecec;
-  height: 50px;
+  background-color: #fff;
+  height: 80px;
   width: 100%;
   margin-bottom: 20px;
 }
 nav {
   display: flex;
   width: 100%;
-margin-right: 10px;
-  
-  line-height: 60px;
+  line-height: 80px;
 }
 /* .img1 {
   background-image: url("menu.png");
